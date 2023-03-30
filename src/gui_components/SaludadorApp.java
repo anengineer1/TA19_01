@@ -61,12 +61,11 @@ public class SaludadorApp extends JFrame {
 	}
 
 	private void fillActions() {
-		JTextField a_input_text = this.input_text;
 		this.button_action = new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "¡Hola " + a_input_text.getText() + "!");
+				JOptionPane.showMessageDialog(null, "¡Hola " + input_text.getText() + "!");
 
 			}
 		};
